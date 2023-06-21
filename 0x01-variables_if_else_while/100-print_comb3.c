@@ -9,10 +9,10 @@
 
 int main(void)
 {
-	int n, m;
-	
+	int n, m;	
 	for (n = '0'; n < '9'; n++)
-        {
+	{
+
 		for (m = n + 1; m <= '9'; m++)
 		{
 			if (m != n)
@@ -29,5 +29,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
+
         return (0);
 }
