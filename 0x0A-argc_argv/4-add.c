@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main - adds positive integers
  * @argc: argument count, the number of arguments passed to the program
