@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main - print the min amount of coin money
  * @argc: argument count, the number of arguments passed to the program
@@ -40,7 +43,8 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-		printf("Error\n", count);
+		printf("Error\n");
+		return (1);
 	}
 	printf("%d\n", count);
 	return (0);
